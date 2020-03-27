@@ -1,0 +1,12 @@
+## To print any random string in python
+a="coding blocks"
+print(a)
+print(a[2])
+print(a[-1])
+print(len(a))
+#to print letters of the string
+for i in range(len(a)):
+    print(a[i])
+    
+    for c in a :
+        print(c)
