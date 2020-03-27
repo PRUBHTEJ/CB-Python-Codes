@@ -1,0 +1,3 @@
+## This prog prints a string 'n' no. of times , where 'n' is a random variable entered by the user.
+a='mango'
+print(a*5)
