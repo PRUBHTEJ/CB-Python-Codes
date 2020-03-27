@@ -1,0 +1,5 @@
+#Triple quotes
+para="""this is some 
+paragraph written 
+here!!!!"""
+print(para)
