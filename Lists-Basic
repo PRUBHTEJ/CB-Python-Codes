@@ -1,0 +1,5 @@
+myLIST=[1,2,3.5,"hello"]
+print(myLIST)
+print(type(myLIST))
+
+### Here we have printed the list we have provided and its type respectively
