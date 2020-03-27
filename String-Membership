@@ -1,0 +1,12 @@
+#membership-we use the 'in' operator to verify whether a substring is present inside the bigger string or not 
+
+a="coding blocks"
+b="cod"
+if b in a :
+    print("yes")
+   
+else:
+        print("no")
+        
+        
+        ### output: yes{in this case the substring is present in the main string}
