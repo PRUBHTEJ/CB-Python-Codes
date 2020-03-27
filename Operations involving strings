@@ -1,0 +1,13 @@
+# In this prog. we have done various operations with a given string.
+
+a='mango'
+print(a[0:-1])
+print(a[:])
+print(a[:-2])
+
+
+### output's:
+mang
+mango
+man
+{outputs corresponding to their respective commands}
