@@ -1,0 +1,17 @@
+class person():
+    def __init__(self,pname,clg):
+        self.name=pname
+        self.college=clg
+        
+    
+    def sayhi(self,name):
+        print("hello "+ name)
+        
+        
+    def introduce(self):
+        print("My name is "+self.name)
+        print("I study in "+ self.college)
+        
+p=person("Prubhtej Singh","GTBIT")
+p.sayhi("World")
+p.introduce()
