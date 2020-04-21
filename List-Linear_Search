@@ -1,0 +1,5 @@
+l=[30,700,40,600,990,20]
+print(max(l))
+print(min(l))
+### This is a kind of linear search on the list
+print(l.index(600))
