@@ -1,0 +1,8 @@
+def prubhtej():
+    print("hello prubhtej")
+    print("wake up prubhtej")
+    print("study prubhtej")
+    for i in range(20):
+        print(i)
+prubhtej()    
+        
