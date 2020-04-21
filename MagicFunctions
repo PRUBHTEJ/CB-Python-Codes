@@ -1,0 +1,30 @@
+class person():
+    ###Class variable: Common for all variables of the same class 
+    National="INDIAN"
+   
+    
+    
+    def __init__(self,pname,clg):
+        ##Instance variables : Different for every instance of the class
+        self.college=clg
+        self.name=pname
+        
+    def sayHi(self,name):
+        print("hello "+name)
+        
+    def introduce(self):
+        print("My name is "+self.name)
+        print("I study in "+self.college)
+        print("My nationality is "+self.National)
+        
+    def secretActivity(self):
+        print("Doing secret activity " +self.name)
+        
+        
+p=person("Prubhtej Singh","GTBIT")
+p.sayHi("World")
+p.introduce()
+print("\n ")
+p2=person("Abhishek","MAIT")
+p2.introduce()
+p.secretActivity()
