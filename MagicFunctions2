@@ -1,0 +1,40 @@
+class Dog():
+    colour="Brown"
+    #common for all variables in the same  class
+    #activities=[]
+    # so if we want to avoid this condition , that all the actitivities get added to all the dogs then we have to add activitites to the constructor
+    
+    def __init__(self,breed):
+        """This is one of the first classes created by S.Prubhtej Singh"""
+        self.activities=[]
+        # now we see what activities we have assigned to various dogs they get only that.....
+        self.breed=breed
+    
+    def addActivities(self,act):
+        self.activities.append(act)
+        
+    def __secretActivity(self) :
+        print("Doing secret activity "+self.breed)
+        
+    def doActivities(self):
+        print(self.breed)
+        print(self.activities)
+        self.__secretActivity()
+    
+d=Dog("German Shephard")
+d2=Dog("Golden Retriever")
+
+d.addActivities("high jump")
+d.addActivities("roll over")
+
+
+d2.addActivities("Loud barking")
+d2.addActivities("strong")
+
+
+d.doActivities()
+d2.doActivities()
+#d2.secretActivity()
+
+
+Dog?
