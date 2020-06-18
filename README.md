@@ -1,4 +1,4 @@
-# CB-Python-Codes
+# CB-Python
 This repository contains all the programs I have and will be practising during my python journey with CB.
 
 Till now, I have covered the following topics:-
