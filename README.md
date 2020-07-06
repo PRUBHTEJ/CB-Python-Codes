@@ -1,5 +1,5 @@
 # CB-Python
-This repository contains all the programs I have and will be practising during my python journey with CB.
+This repository contains all the programs I have and will be practising during my python journey with Coding Blocks,New Delhi.
 
 Till now, I have covered the following topics:-
 
