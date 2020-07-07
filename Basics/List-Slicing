@@ -1,7 +1,8 @@
+# In this program, list slicing has been implemented.
+
 # print squares from 1 to 5
 l4=[i*i for i in range(1,6)]
 print(l4)
 print(l4[0:3])
 print(l4[-3:])
 
-### Here in this program we are slicing the list.
